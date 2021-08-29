@@ -1,0 +1,66 @@
+.Foreground {
+	z-index: 1000;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	top: 60px;
+	width: 100%;
+	min-width: 420px;
+	height: calc(100%-100px);
+	color: white;
+	font-size: 1.5rem;
+}
+
+.time {
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+	width: auto;
+	text-align: center;
+	font-size: 0.8rem;
+	color: hsl(237, 18%, 59%);
+}
+
+.card {
+	padding: 22px 0 0;
+	height: 100px;
+	background: hsl(236, 21%, 26%);
+	margin: 10px;
+	width: 150px;
+	font-size: 4rem;	
+	border-radius: 10px;
+	box-shadow: 0 8px hsl(234, 17%, 12%);
+	color: hsl(345, 95%, 68%);
+}
+
+.time-inner {
+	margin: 100px 0;
+	font-weight: 700;
+}
+
+.link {
+	margin: 50px 10px 0;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 710px) {
+	.Foreground {
+		font-size: 1rem;
+	}
+	
+	.time {
+		width: 100%;
+<<<<<<< HEAD
+		margin: 0;
+=======
+>>>>>>> d0b7094f947171e7f6e72d09b0a1ff609f7d0389
+	}
+	
+	.time-inner {
+		width: 100%;
+	}
+	
+	.card {
+		width: 87.5%;
+	}
+}

@@ -1,0 +1,29 @@
+.Background {
+	z-index: 0;
+	background: linear-gradient(hsl(235, 16%, 14%),hsl(234, 17%, 12%));
+	min-height: 100vh;
+	height: auto;
+	position: absolute;
+	width: 100vw;
+	min-width: 430px;
+}
+
+.bg-image {
+	position: absolute;
+	z-index: 1;
+	width: 100vw;
+	min-width: 430px;
+	height: 100vh;
+	background: url("Images/bg-stars.svg");
+}
+
+.pattern-hills {
+	position: absolute;
+	z-index: 2;
+	bottom: 0;
+	width: 100vw;
+	min-width: 430px;
+	background: url("Images/pattern-hills.svg");
+	height: 200px;
+	background-repeat: no-repeat;
+}
