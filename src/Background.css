@@ -14,7 +14,7 @@
 	z-index: 1;
 	width: 100vw;
 	min-width: 430px;
-	height: 100vh;
+	height: 100%;
 	background: url("Images/bg-stars.svg");
 }
 
