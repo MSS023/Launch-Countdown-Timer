@@ -5,7 +5,7 @@ import pinterest from "./Images/icon-pinterest.svg";
 import React,{useState,useEffect} from "react";
 
 function Foreground() {
-	const [[day,hrs,min,sec],setTime]=useState([8,23,55,41]);
+	const [[day,hrs,min,sec],setTime]=useState([14,0,0,0]);
 	useEffect(() => {
 		const interval = setInterval(() => {
 			if(sec>0)
