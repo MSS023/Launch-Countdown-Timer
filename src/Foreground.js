@@ -43,19 +43,47 @@ function Foreground() {
 		<div><pre>W E ' R E  L A U N C H I N G  S O O N</pre></div>
 		<div className="time">
 			<div className="time-inner">
-				<div className="card">{("0"+day).slice(-2)}</div>
+				<div className="card">	
+					<div className="dark">
+						<div className="dark-text">{("0"+day).slice(-2)}</div>
+					</div>
+					<div className="light">
+						<div className="light-text">{("0"+day).slice(-2)}</div>
+					</div>
+				</div>
 				D A Y S
 			</div>
 			<div className="time-inner">
-				<div className="card">{("0"+hrs).slice(-2)}</div>
+				<div className="card">
+					<div className="dark">
+						<div className="dark-text">{("0"+hrs).slice(-2)}</div>
+					</div>
+					<div className="light">
+						<div className="light-text">{("0"+hrs).slice(-2)}</div>
+					</div>
+				</div>
 				H O U R S
 			</div>
 			<div className="time-inner">
-				<div className="card">{("0"+min).slice(-2)}</div>
+				<div className="card">
+					<div className="dark">
+						<div className="dark-text">{("0"+min).slice(-2)}</div>
+					</div>
+					<div className="light">
+						<div className="light-text">{("0"+min).slice(-2)}</div>
+					</div>
+				</div>
 				M I N U T E S
 			</div>
 			<div className="time-inner">
-				<div className="card">{("0"+sec).slice(-2)}</div>
+				<div className="card">
+					<div className="dark">
+						<div className="dark-text">{("0"+sec).slice(-2)}</div>
+					</div>
+					<div className="light">
+						<div className="light-text">{("0"+sec).slice(-2)}</div>
+					</div>
+				</div>
 				S E C O N D S
 			</div>
 		</div>

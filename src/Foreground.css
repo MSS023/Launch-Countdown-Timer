@@ -22,8 +22,7 @@
 }
 
 .card {
-	padding: 22px 0 0;
-	height: 100px;
+	height: 130px;
 	background: hsl(236, 21%, 26%);
 	margin: 10px;
 	width: 150px;
@@ -41,6 +40,30 @@
 .link {
 	margin: 50px 10px 0;
 	cursor: pointer;
+}
+
+.dark, .light{
+	position: relative;
+	height: 50%;
+}
+
+.dark {
+	background: hsl(240, 21%, 22%);
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.dark-text {
+	position: absolute;
+	top: 22px;
+	width: 100%;
+	color: hsl(346, 59%, 57%);
+}
+
+.light-text {
+	position: absolute;
+	bottom: 22px;
+	width: 100%;
 }
 
 @media screen and (max-width: 710px) {
